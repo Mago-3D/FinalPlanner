@@ -1,0 +1,61 @@
+.card-wrapper{
+    max-width: 370px;
+    max-height: 600px;
+    background-color: none;
+    position: relative;
+    user-select: none;
+}
+
+.App{
+    width: 100%;
+}
+
+
+.swiper{
+    backdrop-filter: blur(2px);
+    backdrop-filter: brightness(15%);
+    padding-top: 30px !important;
+}
+
+.swiper-pagination-bullet{
+    background-color: #F2B441 !important;
+}
+
+.swiper-pagination{
+    position: relative !important;
+    margin-top: 10px !important;
+}
+
+.card-image{
+    width: 100%;
+    border: #F2B441 solid; 
+    filter: blur(2px);
+    filter: brightness(30%);
+
+}
+.swiper-slide-active{
+    zoom: 1.07 !important;
+    filter: blur(0px);
+    filter: brightness(250%);   
+    cursor: pointer;
+
+}
+
+
+
+.card-p{
+    font-size: 2vw;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: 55%;
+    font-weight: bold;
+    z-index: 1;
+    color: white;
+    backdrop-filter: blur(20px);
+    padding: 1px;
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+}
+

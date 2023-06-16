@@ -1,0 +1,24 @@
+.contact, .about{
+    text-align: center !important;
+    height: 100% !important;
+    margin-top: 50px !important;
+ 
+}
+
+h1{
+    margin: 0;
+    text-align: center !important;
+}
+
+h1, h2, h3, p{
+    color: white !important;
+}
+
+.icons-img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
